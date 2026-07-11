@@ -1,0 +1,14 @@
+
+Which gender has the highest stress?
+SELECT Gender,
+AVG(Stress_Level)
+FROM TeenMentalHealth
+GROUP BY Gender;
+
+
+
+Which platform is used most?
+SELECT Platform,
+COUNT(*)
+FROM TeenMentalHealth
+GROUP BY Platform;
